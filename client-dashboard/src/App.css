@@ -1,0 +1,230 @@
+/* project-2/src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(233, 166, 166);
+  min-height: 100vh;
+}
+
+.App {
+  padding: 20px;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.info-banner {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.info-banner p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.badge.lock {
+  background: #e74c3c;
+  color: white;
+}
+
+.badge.hide {
+  background: #95a5a6;
+  color: white;
+}
+
+.badge.normal {
+  background: #2ecc71;
+  color: white;
+}
+
+.sections-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.section.locked {
+  background: #ecf0f1;
+  border: 3px solid #e74c3c;
+}
+
+.locked-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(231, 76, 60, 0.9);
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  z-index: 10;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.section h3 {
+  color: #f5576c;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+
+.section.locked h3 {
+  color: #e74c3c;
+}
+
+.data-display {
+  background: linear-gradient(135deg, #d7d8db 0%, #807b85 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: dataUpdate 1s ease;
+}
+
+@keyframes dataUpdate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.section.locked .data-display {
+  background: #95a5a6;
+}
+
+.status {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.all-hidden-message {
+  text-align: center;
+  background: white;
+  padding: 60px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.all-hidden-message h2 {
+  color: #e74c3c;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.all-hidden-message p {
+  color: #555;
+  font-size: 1.2rem;
+}
+
+
+.cat-fact {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 500;
+}
+
+.section-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.section-controls button {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.section-controls button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+
+.section-controls button.active {
+  background: #e67e22;
+}
+
+.status {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  padding: 8px;
+  background: #ecf0f1;
+  border-radius: 6px;
+}

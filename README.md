@@ -108,14 +108,3 @@ npm run dev
 * Analytics / monitoring dashboard
 
 ```
-
----
-
-If you want, I can also:
-- Add **badges** (Node, React, Socket.IO)
-- Create a **Docker-based README**
-- Write a **portfolio-friendly project description**
-- Add **architecture diagrams section**
-
-Just tell me 
-```

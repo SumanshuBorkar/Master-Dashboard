@@ -9,6 +9,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: rgb(233, 166, 166);
   min-height: 100vh;
+  width: 100vw;
 }
 
 .App {
@@ -196,6 +197,11 @@ h1 {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
+}
+
+.sections-container{
+  width: 23vw;
+  height: 40vh;
 }
 
 .section-controls button {

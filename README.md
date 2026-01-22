@@ -5,8 +5,8 @@ A connected multi-project system where one dashboard **controls** another in rea
 
 Built using **React + Express + Socket.IO**, with the server acting as the **single source of truth**.
 
-Thee are the links to the deployed projects:-
-Master Dashboard:- <a href="https://master-dashboard-tfzg.vercel.app/">https://master-dashboard-tfzg.vercel.app/</a>
+Thee are the links to the deployed projects:-<br>
+Master Dashboard:- <a href="https://master-dashboard-tfzg.vercel.app/">https://master-dashboard-tfzg.vercel.app/</a> <br>
 Client Dashboard:- <a href="https://master-dashboard-three.vercel.app/">https://master-dashboard-three.vercel.app/</a>
 
 ---

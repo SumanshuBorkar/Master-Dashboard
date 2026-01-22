@@ -15,7 +15,6 @@ body {
 .App {
   padding: 20px;
   width: 100vw;
-  height: 100vh;
   margin: 0 auto;
 }
 
@@ -71,6 +70,7 @@ h1 {
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .section {
@@ -81,7 +81,7 @@ h1 {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  width: 23vw;
+  width: 47vw;
   height: 60vh;
   display: flex;
   flex-direction: column;

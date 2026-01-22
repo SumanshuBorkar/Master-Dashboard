@@ -1,10 +1,5 @@
-Here’s a **clean, concise `README.md`** you can directly copy into your GitHub repo.
-It explains the project, architecture, and run commands without being verbose.
 
----
-
-```md
-# 🐱 Cross-Site Real-Time Dashboard (Socket.IO)
+# Cross-Site Real-Time Dashboard (Socket.IO)
 
 A connected multi-project system where one dashboard **controls** another in real time, while both display **independently updating cat facts** every 3 seconds.
 
@@ -12,7 +7,7 @@ Built using **React + Express + Socket.IO**, with the server acting as the **sin
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 
@@ -25,7 +20,7 @@ cross-site-dashboard/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - The **server**:
   - Fetches cat facts from a public API
@@ -54,7 +49,7 @@ cross-site-dashboard/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### 1️⃣ Start the Backend
 ```bash
@@ -97,7 +92,7 @@ npm run dev
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * The server is the **single source of truth**
 * UI structure is preserved to support existing CSS
@@ -105,7 +100,7 @@ npm run dev
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Redis-backed Socket.IO scaling
 * Docker Compose setup
@@ -122,5 +117,5 @@ If you want, I can also:
 - Write a **portfolio-friendly project description**
 - Add **architecture diagrams section**
 
-Just tell me 👍
+Just tell me 
 ```

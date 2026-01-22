@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: rgb(233, 166, 166);
+  background: linear-gradient(135deg, #3c3c3c 0%, #000000 100%);
   min-height: 100vh;
   width: 100vw;
 }
@@ -15,6 +15,7 @@ body {
 .App {
   padding: 20px;
   width: 100vw;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -27,7 +28,7 @@ h1 {
 }
 
 .info-banner {
-  background: white;
+  background: rgb(66, 66, 66);
   padding: 15px 20px;
   border-radius: 12px;
   margin-bottom: 30px;
@@ -37,7 +38,7 @@ h1 {
 
 .info-banner p {
   margin: 5px 0;
-  color: #333;
+  color: #dbdbdb;
   font-size: 1.1rem;
 }
 
@@ -66,19 +67,26 @@ h1 {
 }
 
 .sections-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  display: flex;
   gap: 20px;
+  justify-content: space-between;
 }
 
 .section {
-  background: white;
+  background: linear-gradient(135deg, #4569d4 0%, #000000 100%);
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  width: 23vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .section:hover {
@@ -116,7 +124,7 @@ h1 {
 }
 
 .section h3 {
-  color: #f5576c;
+  color: #ec4242;
   margin-bottom: 15px;
   font-size: 1.3rem;
   margin-top: 30px;
@@ -127,7 +135,6 @@ h1 {
 }
 
 .data-display {
-  background: linear-gradient(135deg, #d7d8db 0%, #807b85 100%);
   color: white;
   padding: 30px;
   border-radius: 8px;
@@ -135,7 +142,6 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   animation: dataUpdate 1s ease;
 }
 
@@ -197,11 +203,6 @@ h1 {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
-}
-
-.sections-container{
-  width: 23vw;
-  height: 40vh;
 }
 
 .section-controls button {

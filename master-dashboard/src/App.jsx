@@ -71,11 +71,10 @@ function App() {
               >
                 {section.visible ? "Hide" : "Show"}
               </button>
-            </div>
-
-            <div className="status">
+              <div className="status">
               Status: {section.locked ? "🔒 Locked" : "🔄 Updating"} |
               {section.visible ? " Visible" : " Hidden"}
+            </div>
             </div>
           </div>
         ))}

@@ -5,6 +5,10 @@ A connected multi-project system where one dashboard **controls** another in rea
 
 Built using **React + Express + Socket.IO**, with the server acting as the **single source of truth**.
 
+Thee are the links to the deployed projects:-
+Master Dashboard:- <a href="https://master-dashboard-tfzg.vercel.app/">https://master-dashboard-tfzg.vercel.app/</a>
+Client Dashboard:- <a href="https://master-dashboard-three.vercel.app/">https://master-dashboard-three.vercel.app/</a>
+
 ---
 
 ## Repository Structure
@@ -19,6 +23,12 @@ cross-site-dashboard/
 ````
 
 ---
+
+### Sequence Diagram :  Voice Interaction
+
+<p align="center">
+  <img src="https://uml.planttext.com/plantuml/svg/ZL9DJuD04BsJy1zUUgA7jW5l74nDhQOdDwvwyhA1CLrTTWbCDVNNEo2s3KqJkMnuy_Pz32nRDWtlAXT7RDaH7icu6TkAi3ACErCmzDuNsoPu-stO1ez4X-A3UBvvcCPH7DKYO0jR6y-Og2Qyazn9Ntso2fwRuA2C9pUTmBHGwOX_a8AcvfEQdgL7f4EI6xNf2N9UyCt4zzQsjJDxl5Zw6copBgXACRk6pb44xuMSI7oLdMDnf3jGfJbaEqpvhYxb-8EpCHn7BeGQQuc_nnLQ4gsoZIF8qr-Hk3dkrqzOl4cBtu5Wc0tMKkyuq4EWvrwzK-kMFfSNSq8u3tSSdGKaNuxwLvNnvJ17ukGZO86jBMawj3m9m2VT_x-IfPZslzKF" alt="Logo" width="100%"/>
+</p
 
 ## How It Works
 
